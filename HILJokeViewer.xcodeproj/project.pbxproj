@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8104DC551C9C6FA10069B027 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8104DC541C9C6FA10069B027 /* main.m */; };
+		8104DC581C9C6FA10069B027 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8104DC571C9C6FA10069B027 /* AppDelegate.m */; };
+		8104DC5B1C9C6FA10069B027 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8104DC5A1C9C6FA10069B027 /* ViewController.m */; };
+		8104DC5E1C9C6FA10069B027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8104DC5C1C9C6FA10069B027 /* Main.storyboard */; };
+		8104DC611C9C6FA10069B027 /* HILJokeViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8104DC5F1C9C6FA10069B027 /* HILJokeViewer.xcdatamodeld */; };
+		8104DC631C9C6FA10069B027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8104DC621C9C6FA10069B027 /* Assets.xcassets */; };
+		8104DC661C9C6FA10069B027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8104DC641C9C6FA10069B027 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8104DC501C9C6FA10069B027 /* HILJokeViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HILJokeViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8104DC541C9C6FA10069B027 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8104DC561C9C6FA10069B027 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8104DC571C9C6FA10069B027 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8104DC591C9C6FA10069B027 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8104DC5A1C9C6FA10069B027 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8104DC5D1C9C6FA10069B027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8104DC601C9C6FA10069B027 /* HILJokeViewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HILJokeViewer.xcdatamodel; sourceTree = "<group>"; };
+		8104DC621C9C6FA10069B027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8104DC651C9C6FA10069B027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8104DC671C9C6FA10069B027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8104DC4D1C9C6FA10069B027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8104DC471C9C6FA10069B027 = {
+			isa = PBXGroup;
+			children = (
+				8104DC521C9C6FA10069B027 /* HILJokeViewer */,
+				8104DC511C9C6FA10069B027 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8104DC511C9C6FA10069B027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8104DC501C9C6FA10069B027 /* HILJokeViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8104DC521C9C6FA10069B027 /* HILJokeViewer */ = {
+			isa = PBXGroup;
+			children = (
+				8104DC561C9C6FA10069B027 /* AppDelegate.h */,
+				8104DC571C9C6FA10069B027 /* AppDelegate.m */,
+				8104DC591C9C6FA10069B027 /* ViewController.h */,
+				8104DC5A1C9C6FA10069B027 /* ViewController.m */,
+				8104DC5C1C9C6FA10069B027 /* Main.storyboard */,
+				8104DC621C9C6FA10069B027 /* Assets.xcassets */,
+				8104DC641C9C6FA10069B027 /* LaunchScreen.storyboard */,
+				8104DC671C9C6FA10069B027 /* Info.plist */,
+				8104DC5F1C9C6FA10069B027 /* HILJokeViewer.xcdatamodeld */,
+				8104DC531C9C6FA10069B027 /* Supporting Files */,
+			);
+			path = HILJokeViewer;
+			sourceTree = "<group>";
+		};
+		8104DC531C9C6FA10069B027 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8104DC541C9C6FA10069B027 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8104DC4F1C9C6FA10069B027 /* HILJokeViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8104DC6A1C9C6FA10069B027 /* Build configuration list for PBXNativeTarget "HILJokeViewer" */;
+			buildPhases = (
+				8104DC4C1C9C6FA10069B027 /* Sources */,
+				8104DC4D1C9C6FA10069B027 /* Frameworks */,
+				8104DC4E1C9C6FA10069B027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HILJokeViewer;
+			productName = HILJokeViewer;
+			productReference = 8104DC501C9C6FA10069B027 /* HILJokeViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8104DC481C9C6FA10069B027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Hillel;
+				TargetAttributes = {
+					8104DC4F1C9C6FA10069B027 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8104DC4B1C9C6FA10069B027 /* Build configuration list for PBXProject "HILJokeViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8104DC471C9C6FA10069B027;
+			productRefGroup = 8104DC511C9C6FA10069B027 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8104DC4F1C9C6FA10069B027 /* HILJokeViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8104DC4E1C9C6FA10069B027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8104DC661C9C6FA10069B027 /* LaunchScreen.storyboard in Resources */,
+				8104DC631C9C6FA10069B027 /* Assets.xcassets in Resources */,
+				8104DC5E1C9C6FA10069B027 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8104DC4C1C9C6FA10069B027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8104DC5B1C9C6FA10069B027 /* ViewController.m in Sources */,
+				8104DC581C9C6FA10069B027 /* AppDelegate.m in Sources */,
+				8104DC611C9C6FA10069B027 /* HILJokeViewer.xcdatamodeld in Sources */,
+				8104DC551C9C6FA10069B027 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8104DC5C1C9C6FA10069B027 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8104DC5D1C9C6FA10069B027 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8104DC641C9C6FA10069B027 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8104DC651C9C6FA10069B027 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8104DC681C9C6FA10069B027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8104DC691C9C6FA10069B027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8104DC6B1C9C6FA10069B027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HILJokeViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HIL.HILJokeViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8104DC6C1C9C6FA10069B027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HILJokeViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HIL.HILJokeViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8104DC4B1C9C6FA10069B027 /* Build configuration list for PBXProject "HILJokeViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8104DC681C9C6FA10069B027 /* Debug */,
+				8104DC691C9C6FA10069B027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8104DC6A1C9C6FA10069B027 /* Build configuration list for PBXNativeTarget "HILJokeViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8104DC6B1C9C6FA10069B027 /* Debug */,
+				8104DC6C1C9C6FA10069B027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8104DC5F1C9C6FA10069B027 /* HILJokeViewer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8104DC601C9C6FA10069B027 /* HILJokeViewer.xcdatamodel */,
+			);
+			currentVersion = 8104DC601C9C6FA10069B027 /* HILJokeViewer.xcdatamodel */;
+			path = HILJokeViewer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8104DC481C9C6FA10069B027 /* Project object */;
+}
